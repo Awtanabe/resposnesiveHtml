@@ -1,0 +1,113 @@
+/* リセットcss */
+
+body,
+h1 {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* ヘッダー */
+
+.header-container{
+  padding: 0 20px;
+  background-color:gray;
+  height: 100px;
+  line-height: 100px;
+}
+
+.nav-container{
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin: 30px 0;
+}
+
+.nav__item {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+
+.nav__item a{
+  line-height: 50px;
+}
+
+.nav__item:hover{
+  background-color: aquamarine;
+}
+
+/* セクション one*/
+
+.items-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.items-container .item{
+  width: 30%;
+  display: inline-block;
+}
+.item__img img{
+  width: 100%;
+}
+
+.item__text{
+  text-align: start;
+}
+
+/* セクション two*/
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.left-items {
+  flex: 6;
+}
+
+.left-items .item{
+  padding: 0 40px;
+}
+
+.right-items {
+  flex: 3;
+}
+
+.right-items .item-title h3{
+  font-size: 15px;
+}
+
+.right-items .item {
+  display: block;
+  background-color: #48a267;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin: 3px 0;
+}
+
+/* ヘッダー */
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
