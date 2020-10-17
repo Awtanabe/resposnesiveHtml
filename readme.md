@@ -2,13 +2,13 @@
 ## Todo
 
 - レスポンシブ
-  - カラム落ち or カラム数変更
-  - 要素消す
-
-
+  - カラム落ち width の%を変更する done
+  - カラム数変更 flexbox flex-direction done 
+  - 要素消す done
 
 ## 学び
 
+- レスポンシブの cssは分ける
 - リセットcss
 - 基本的なHTMLタグの使い方
   - sectionタグ

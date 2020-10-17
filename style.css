@@ -111,3 +111,42 @@ a {
   line-height: 100px;
   color: white;
 }
+
+/* モバイル */
+
+@media screen and (max-width: 460px){
+  /* ヘッダー */
+ .header-container .header-title{
+   font-size:20px;
+   text-align: center;
+ }
+  /* ナビゲーション */
+ .nav {
+   margin-bottom: 54px;
+ }
+ .nav__item {
+   /* ここはカラム落ち */
+   width: 40%;
+ }
+ /* section one */
+
+ .items-container {
+  padding-left: 14px;
+ }
+
+ .items-container .item {
+   width: 100%;
+ }
+
+  /* section two */
+
+  .section-two {
+    /* blockを変更して縦並びに */
+    display: flex;
+    flex-direction: column;
+  }
+  .right-items .hide-item {
+    /* スマホの場合だけ要素を消す */
+    display: none;
+  }
+}
